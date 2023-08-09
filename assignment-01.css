@@ -1,0 +1,94 @@
+.food-pyramid {
+     clip-path: polygon(50% 0, 100% 100%, 0 100%);
+     width: 150vmin;
+     aspect-ratio: 2 / 1;
+     background-color: white;
+     grid-template-columns: 1fr;
+     gap: 1vmin;
+}
+ .food-pyramid > * {
+     background: pink;
+}
+ .first-section {
+     background-color: #b61043;
+     height: 175px;
+     padding-top: 45px;
+     margin-bottom:10px;
+}
+ .first-section:hover .button {
+     display:block;
+}
+ .second-section {
+     background-color: #f47700;
+     height: 140px;
+     margin-bottom:10px;
+}
+ .second-section:hover .button {
+     display:block;
+}
+ .third-section {
+     background-color: #29bcf9;
+     height: 140px;
+}
+ .third-section:hover .button {
+     display:block;
+}
+ .fourth-section {
+     background-color: #ba04fc;
+     height: 140px;
+}
+ .fourth-section:hover .button {
+     display:block;
+}
+ .fifth-section {
+     background-color: #ff78c9;
+     height: 140px;
+}
+ .fifth-section:hover .button {
+     display:block;
+}
+ .sixth-section {
+     background-color: #9cc823;
+     height: 140px;
+}
+ .sixth-section:hover .button {
+     display:block;
+}
+ .button {
+     border-radius: 50%;
+     border-width: 1px;
+     background: #a8a8a8;
+     height: 40px;
+     width: 40px;
+     font-size:30px;
+     display:none;
+}
+ .circle {
+     height: 40px;
+     width: 40px;
+     background-color: #a8a8a8;
+     border-radius: 50%;
+     display:inline-block;
+     vertical-align: bottom;
+     border: 1px solid #000;
+}
+ .button-container {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items:flex-end;
+     height: 100px;
+}
+ .text {
+     color: #ffffff;
+     text-align: center;
+     font-family: sans-serif;
+     font-weight: 600;
+}
+ .inputbox{
+     text-align: center;
+     background: transparent;
+     border: none;
+     width: 90%;
+     padding-top: 10px;
+}

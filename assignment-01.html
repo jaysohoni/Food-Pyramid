@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Assignment 1 CS230</title>
+      <link rel="stylesheet" href="assignment-01.css">
+      <script src="assignment-01.js"></script>
+   </head>
+   <body>
+      <div class="food-pyramid">
+         <div class="first-section">
+            <div class="button-container">
+               <button class="button" onclick = "increase('num1')">+</button>
+               <div class="circle"><input class="inputbox" id="num1" value="0" readonly></input></div>
+               <button class="button" onclick = "decrease('num1')">-</button>
+            </div>
+            <p class = "text">High fat, sugar, salt</p>
+         </div>
+         <div class="second-section">
+            <div class="button-container">
+               <button class="button" onclick = "increase('num2')">+</button>
+               <div class="circle"><input class="inputbox" id="num2" value="0" readonly></input></div>
+               <button class="button" onclick = "decrease('num2')">-</button>
+            </div>
+            <p class = "text">Fats and oils</p>
+         </div>
+         <div class="third-section">
+            <div class="button-container">
+               <button class="button" onclick = "increase('num3')">+</button>
+               <div class="circle"><input class="inputbox" id="num3" value="0" readonly></input></div>
+               <button class="button" onclick = "decrease('num3')">-</button>
+            </div>
+            <p class = "text">Meat</p>
+         </div>
+         <div class="fourth-section">
+            <div class="button-container">
+               <button class="button" onclick = "increase('num4')">+</button>
+               <div class="circle"><input class="inputbox" id="num4" value="0" readonly></input></div>
+               <button class="button" onclick = "decrease('num4')">-</button>
+            </div>
+            <p class = "text">Dairy products</p>
+         </div>
+         <div class="fifth-section">
+            <div class="button-container">
+               <button class="button" onclick = "increase('num5')">+</button>
+               <div class="circle"><input class="inputbox" id="num5" value="0" readonly></input></div>
+               <button class="button" onclick = "decrease('num5')">-</button>
+            </div>
+            <p class = "text">Whole meal foods</p>
+         </div>
+         <div class="sixth-section">
+            <div class="button-container">
+               <button class="button" onclick = "increase('num6')">+</button>
+               <div class="circle"><input class="inputbox" id="num6" value="0" readonly></input></div>
+               <button class="button" onclick = "decrease('num6')">-</button>
+            </div>
+            <p class = "text">Vegetables, salad and fruit</p>
+         </div>
+      </div>
+      <center>
+      <h1>My Food Pyramid</h1>
+      <input type="date" id="myDate">
+      <center>
+   </body>
+</html>
